@@ -1,0 +1,90 @@
+.menu {
+    display: flex;
+    margin: 0px 0px 20px 0px;
+    background-color: red;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.menu-right{
+    display: flex;
+    background-color: green;
+}
+
+.menu-logo {
+    
+    width: 50px;
+    background-color: black;
+}
+
+.menu-btn { 
+    color: white;
+    background-color:yellow;
+    width: 150px;
+    height: 40px;
+    margin: 5px 10px;
+}
+
+.red {
+    color: red;
+}
+
+.slider {
+    margin: 20px 0px;
+    background-color: green;
+    background-image: url("media/header_image.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 30px;
+}
+
+.slider-tittle{
+    font-family: 'Caveat';
+    font-size: 4rem;
+    color:white;
+    text-align: center;
+    background: rgb(.3, .3, .3, .8);
+    /* width: 60%; */
+    padding: 8px 50px;
+    margin: 0 auto;
+}
+
+.signup {
+    margin: 20px auto;    
+    width: 120px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 50%;
+    display: block;
+}
+
+.signup p{
+    color: white;
+    position: relative;
+    vertical-align: middle;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+
+.info{
+        display: flex;
+        height: 400px;
+        justify-content: center;
+        margin: 40px auto ;
+}
+
+.info-text {
+    width: 35%;
+    background-color: red;
+}
+
+.info-image {
+    width: 35%;
+    background-color: yellow;
+}
+
+
+
+
